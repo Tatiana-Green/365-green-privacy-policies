@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — AI Smart Descriptions</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #1a1a2e; background: #fafafa; }
+    .container { max-width: 780px; margin: 0 auto; padding: 40px 24px 80px; }
+    .header { text-align: center; margin-bottom: 48px; padding-bottom: 32px; border-bottom: 2px solid #8BC34A; }
+    .header h1 { font-size: 28px; margin-bottom: 8px; color: #1a1a2e; }
+    .header .app-name { color: #8BC34A; font-weight: 600; }
+    .header .updated { font-size: 14px; color: #666; margin-top: 8px; }
+    h2 { font-size: 20px; margin: 36px 0 12px; color: #2d2d44; }
+    p { margin-bottom: 14px; color: #444; }
+    ul { margin: 8px 0 16px 24px; color: #444; }
+    li { margin-bottom: 6px; }
+    a { color: #8BC34A; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e0e0e0; font-size: 13px; color: #888; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Privacy Policy</h1>
+      <div class="app-name">AI Smart Descriptions — by 365 Green</div>
+      <div class="updated">Last updated: March 4, 2026</div>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>This Privacy Policy explains how 365 Green ("we", "us", "our") collects, uses, and protects information when you use the AI Smart Descriptions application ("the App") for Shopify. We are committed to protecting the privacy of merchants and their customers.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>When you install and use our App, we access the following data through Shopify's APIs:</p>
+    <ul>
+      <li><strong>Product data:</strong> Product titles, descriptions, images, tags, pricing, vendor, and product type — used solely to generate AI-powered descriptions.</li>
+      <li><strong>Store information:</strong> Your store name and domain — used for authentication and to manage your subscription plan.</li>
+    </ul>
+    <p>We do <strong>not</strong> collect:</p>
+    <ul>
+      <li>Customer personal data (names, emails, addresses, payment info)</li>
+      <li>Order or transaction data</li>
+      <li>Browsing or analytics data from your store's visitors</li>
+      <li>Cookies or tracking technologies on your storefront</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the collected data exclusively to:</p>
+    <ul>
+      <li>Generate AI-powered product descriptions, titles, and SEO metadata in your chosen language</li>
+      <li>Save generated content back to your Shopify store via the Shopify Admin API</li>
+      <li>Track your monthly description usage to manage plan limits</li>
+      <li>Process billing through Shopify's built-in Billing API</li>
+    </ul>
+    <p>We do not use your data for advertising, marketing, profiling, or any purpose other than providing the App's core functionality.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>To generate descriptions, product data (titles, tags, pricing, and images) is sent to OpenAI's API for processing. OpenAI processes this data according to their <a href="https://openai.com/policies/privacy-policy" target="_blank">Privacy Policy</a> and <a href="https://openai.com/policies/business-terms" target="_blank">Business Terms</a>. OpenAI does not use data submitted via their API to train their models.</p>
+    <p>Payment processing is handled entirely by Shopify's Billing API. We do not collect, store, or process any payment card information.</p>
+
+    <h2>5. Data Storage and Retention</h2>
+    <p>We store minimal operational data (your store domain, current plan, and monthly usage count) in a database hosted on Fly.io servers in Sydney, Australia. Generated descriptions are saved directly to your Shopify store and are not retained by us.</p>
+    <p>If you uninstall the App, we delete all associated data within 48 hours of receiving Shopify's uninstall webhook notification.</p>
+
+    <h2>6. Data Security</h2>
+    <p>We protect your data using:</p>
+    <ul>
+      <li>HTTPS encryption for all data in transit</li>
+      <li>Shopify's OAuth 2.0 session token authentication</li>
+      <li>Encrypted database storage</li>
+      <li>No storage of API keys or credentials in client-side code</li>
+    </ul>
+
+    <h2>7. Your Rights</h2>
+    <p>Regardless of your location, you have the right to:</p>
+    <ul>
+      <li><strong>Access:</strong> Request a copy of the data we hold about your store</li>
+      <li><strong>Correction:</strong> Request correction of inaccurate data</li>
+      <li><strong>Deletion:</strong> Request deletion of your data, or simply uninstall the App</li>
+      <li><strong>Data portability:</strong> Request your data in a portable format</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at <a href="mailto:hello@365.green">hello@365.green</a>. We will respond within 30 days.</p>
+
+    <h2>8. GDPR and International Compliance</h2>
+    <p>We comply with the General Data Protection Regulation (GDPR), the California Privacy Rights Act (CPRA), and other applicable privacy laws. We process only the minimum data required to provide our service. We do not sell, share, or transfer your personal data to third parties for their own purposes.</p>
+
+    <h2>9. Compliance Webhooks</h2>
+    <p>Our App responds to all mandatory Shopify compliance webhooks:</p>
+    <ul>
+      <li><strong>customers/data_request:</strong> We do not store customer data, so we respond confirming no data is held.</li>
+      <li><strong>customers/redact:</strong> We do not store customer data, so no action is needed.</li>
+      <li><strong>shop/redact:</strong> We delete all store-related data (plan info, usage records) within 48 hours.</li>
+    </ul>
+
+    <h2>10. Children's Privacy</h2>
+    <p>Our App is a business tool designed for Shopify merchants. We do not knowingly collect data from anyone under 16 years of age.</p>
+
+    <h2>11. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. If we make material changes, we will notify you via the App or by email. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>12. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or our data practices, please contact us:</p>
+    <p>
+      <strong>365 Green</strong><br>
+      Email: <a href="mailto:hello@365.green">hello@365.green</a><br>
+      Website: <a href="https://xplain.world" target="_blank">xplain.world</a>
+    </p>
+
+    <div class="footer">
+      &copy; 2026 365 Green. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
